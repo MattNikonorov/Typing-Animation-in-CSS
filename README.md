@@ -7,7 +7,7 @@
 
 1. **It makes makes your website more engaging to visitors.**
 For example, here's a personal portfolio template I made recently:
-[Typing animation in action](https://github.com/MattNikonorov/Typing-Animation-in-CSS/blob/main/typewriter.gif)
+![Typing animation in action](https://github.com/MattNikonorov/Typing-Animation-in-CSS/blob/main/typewriter.gif)
 
 
 
