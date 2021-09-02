@@ -25,3 +25,4 @@ Here I will be walking through how to make the animation that will change a text
 ### Adding steps to the animation to add a typewriter effect
 Here I will be introducing the reader to the CSS "steps()" function, how to use it and how to add the right amount of steps to your typewriter animation based on the length of your text element.
 
+
