@@ -32,5 +32,5 @@ Here I will be introducing the reader to the CSS "steps()" function, how to use 
 
 ### Making the blink caret animation
 Here I will be explaining and demonstraiting how to make the blink caret animation, as well as how to style it.
-
+![Blink caret animation](https://github.com/MattNikonorov/Typing-Animation-in-CSS/blob/main/blink-caret.gif)
 
