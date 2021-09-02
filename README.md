@@ -25,9 +25,9 @@ Here I will be walking through how to make the animation that will change a text
 ### Styling the text element which we want to have the typewriter effect
 In this section I will be explaining how the reader needs to style their text element in order for the typewriter effect to work.
 Apart from basic style like font-size and color, they will need to add the following properties:
-a. An **"overflow: hidden;"** property to make sure the text content isn't revealed until the typewriter animation has started.
-b. A **border-right: .15em solid orange;** property to create the typewriter cursor.
-c. An **animation** property which will later be contained with the typewriter animation, as well as the typewriter cursor animation.
+* An **"overflow: hidden;"** property to make sure the text content isn't revealed until the typewriter animation has started.
+* A **border-right: .15em solid orange;** property to create the typewriter cursor.
+* An **animation** property which will later be contained with the typewriter animation, as well as the typewriter cursor animation.
 
 ### Adding steps to the animation to add a typewriter effect
 Here I will be introducing the reader to the CSS "steps()" function, how to use it and how to add the right amount of steps to your typewriter animation based on the length of your text element, and how The longer the text the more steps are needed and vice-versa. 
