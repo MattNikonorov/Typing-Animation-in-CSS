@@ -22,11 +22,15 @@ The type writer animation is easy to make and all you will need to have in order
 ### Making the basic animation
 Here I will be walking through how to make the animation that will change a text element's width from 0 to it's desired width and how to set the animation's delay, duration and direction. 
 
+
 ### Adding steps to the animation to add a typewriter effect
 Here I will be introducing the reader to the CSS "steps()" function, how to use it and how to add the right amount of steps to your typewriter animation based on the length of your text element.
 ![Long text animation](https://github.com/MattNikonorov/Typing-Animation-in-CSS/blob/main/long-text.gif)
 
 ![Short text animation](https://github.com/MattNikonorov/Typing-Animation-in-CSS/blob/main/short-text.gif)
 
+
+### Making the blink caret animation
+Here I will be explaining and demonstraiting how to make the blink caret animation, as well as how to style it.
 
 
