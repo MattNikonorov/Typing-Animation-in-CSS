@@ -43,4 +43,4 @@ This is going to be essential for createing the typewriter effect and give the t
 ![Blink caret animation](https://github.com/MattNikonorov/Typing-Animation-in-CSS/blob/main/blink-caret.gif)
 
 ### Combining everything
-
+Here I will be demonstrating the end result and the full code of the typewriter animation, along with full code of some practical applications of the typewriter effect like: demonstrating code, questions, SaaS landing pages and personal portfolios.
