@@ -43,3 +43,5 @@ This is going to be essential for createing the typewriter effect and give the t
 
 ### Combining everything
 Here I will be demonstrating the end result and the full code of the typewriter animation, along with full code of some practical applications of the typewriter effect like: demonstrating code, SaaS landing pages and personal portfolios.
+![Short text animation](https://github.com/MattNikonorov/Typing-Animation-in-CSS/blob/main/short-text.gif)
+https://codepen.io/matveynikon/pen/RwgGRab
