@@ -18,7 +18,6 @@ What I've found is that adding typewriter effects to chunks of your text makes y
 
 The type writer animation is easy to make and all you will need to have in order to make sense of this tutorial and this animation is basic knowledge of CSS and CSS animations.
 
-
 ### Making the basic animation
 Here I will be walking through how to make the animation that will change a text element's width from 0 to it's desired width to make it's text contents appear, and how to set the animation's delay, duration based on the elements length, and direction based on how the reader will want to end the animation. 
 
@@ -43,4 +42,4 @@ This is going to be essential for createing the typewriter effect and give the t
 ![Blink caret animation](https://github.com/MattNikonorov/Typing-Animation-in-CSS/blob/main/blink-caret.gif)
 
 ### Combining everything
-Here I will be demonstrating the end result and the full code of the typewriter animation, along with full code of some practical applications of the typewriter effect like: demonstrating code, questions, SaaS landing pages and personal portfolios.
+Here I will be demonstrating the end result and the full code of the typewriter animation, along with full code of some practical applications of the typewriter effect like: demonstrating code, SaaS landing pages and personal portfolios.
