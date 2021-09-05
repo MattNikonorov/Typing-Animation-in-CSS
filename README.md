@@ -38,7 +38,7 @@ I will also share an easy way to calculate the amount of steps needed for the ty
 
 ### Making the typewriter cursor animation
 Here I will be explaining and demonstraiting how to make the typewriter cursor animation, as well as how to style it.
-This is going to be essential for createing the typewriter effect and give the text the feeling of being typed.
+This is going to be essential for creating the typewriter effect and give the text the feeling of being typed.
 ![Blink caret animation](https://github.com/MattNikonorov/Typing-Animation-in-CSS/blob/main/blink-caret.gif)
 
 ### Combining everything
