@@ -16,7 +16,7 @@ What I've found is that adding typewriter effects to chunks of your text makes y
 
 ## Let's make the typewriter animation!
 
-The type writer animation is easy to make and all you will need to have in order to make sense of this tutorial and this animation is basic knowledge of CSS and CSS animations.
+The typewriter animation is easy to make and all you will need to have in order to make sense of this tutorial and this animation is basic knowledge of CSS and CSS animations.
 
 ### Making the basic animation
 Here I will be walking through how to make the animation that will change a text element's width from 0 to it's desired width to make it's text contents appear, and how to set the animation's delay, duration based on the elements length, and direction based on how the reader will want to end the animation. 
