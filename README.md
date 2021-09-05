@@ -25,8 +25,8 @@ Here I will be walking through how to make the animation that will change a text
 In this section I will be explaining how the reader needs to style their text element in order for the typewriter effect to work.
 Apart from basic style like font-size and color, they will need to add the following properties:
 * An **"overflow: hidden;"** property to make sure the text content isn't revealed until the typewriter animation has started.
-* A **border-right: .15em solid orange;** property to create the typewriter cursor.
-* An **animation** property which will later be contained with the typewriter animation, as well as the typewriter cursor animation.
+* A **"border-right: .15em solid orange;"** property to create the typewriter cursor.
+* An **"animation"** property which will later be contained with the typewriter animation, as well as the typewriter cursor animation.
 
 ### Adding steps to the animation to add a typewriter effect
 Here I will be introducing the reader to the CSS "steps()" function, how to use it and how to add the right amount of steps to your typewriter animation based on the length of your text element, and how The longer the text the more steps are needed and vice-versa. 
@@ -37,7 +37,7 @@ I will also share an easy way to calculate the amount of steps needed for the ty
 
 
 ### Making the typewriter cursor animation
-Here I will be explaining and demonstraiting how to make the blink caret animation, as well as how to style it.
+Here I will be explaining and demonstraiting how to make the typewriter cursor animation, as well as how to style it.
 This is going to be essential for createing the typewriter effect and give the text the feeling of being typed.
 ![Blink caret animation](https://github.com/MattNikonorov/Typing-Animation-in-CSS/blob/main/blink-caret.gif)
 
