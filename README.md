@@ -18,14 +18,35 @@ What I've found is that adding typewriter effects to chunks of your text makes y
 
 The typewriter animation is easy to make and all you will need to have in order to make sense of this tutorial and this animation is basic knowledge of CSS and CSS animations.
 
-### Making the basic animation
 Here's the way the typewriter animation is going to work:
-* The "typing" animation is going to reveal our text element by changing it's width from 0 to 100%, step by step, using the CSS step() function.
-* The "blink" animation is going to 
+* The "typing" animation is going to reveal our text element by changing it's width from 0 to 40%, step by step, using the CSS step() function.
+* The "blink" animation is going to create the cursor.
+
+Before making the animation, let's create the webpage and div element which we want to have the typewriter effect:
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Matt's portfolio</title>
+  <style>
+    body{
+      background: navajowhite;
+      height: 100%;
+      background-size: cover;
+      font-family: 'Trebuchet MS', sans-serif; 
+    }
+  </style>
+  </head>
+  <body>
+      <h1>I'm Matt, I'm a</h1>
+      <div class="typed-out">Web Developer</div>
+  </body>
+</html>
+```
+
 
 ### Styling the text element which we want to have the typewriter effect
-In this section I will be explaining how the reader needs to style their text element in order for the typewriter effect to work.
-Apart from basic style like font-size and color, they will need to add the following properties:
 * An **"overflow: hidden;"** property to make sure the text content isn't revealed until the typewriter animation has started.
 * A **"border-right: .15em solid orange;"** property to create the typewriter cursor.
 * An **"animation"** property which will later be contained with the typewriter animation, as well as the typewriter cursor animation.
