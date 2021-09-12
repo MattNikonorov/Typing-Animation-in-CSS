@@ -82,18 +82,29 @@ Now if you include this animation in your "typed-out" class:
     }
 ```
 You're text element will simply be revealed in one smooth step:
-https://codepen.io/matveynikon/pen/OJggJGG
+https://codepen.io/matveynikon/pen/OJggJGG 
 
-This is obviously not what a typewriter effect looks like,
+#### Adding steps to the animation to add a typewriter effect
+This is obviously not what a typewriter effect looks like.
+To make this animation reveal our text element in steps, the way a typewriter would, we have to split the "typing" animation included by the "typed-out" class into steps in order for it to look like a typewriter effect:
+```
+    .typed-out{
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        font-size: 25px;
+        width: 0;
+        animation: 
+          typing 1s steps(20, end) forwards,
+    }
+```
+As you can see, we've split the "typing" animation into 20 steps using the CSS "steps()" function, neat right!
 
-### Adding steps to the animation to add a typewriter effect
-Here I will be introducing the reader to the CSS "steps()" function, how to use it and how to add the right amount of steps to your typewriter animation based on the length of your text element, and how The longer the text the more steps are needed and vice-versa. 
-I will also share an easy way to calculate the amount of steps needed for the typewriter animation based on the length of the text.
-
+Now that's more like it:
+https://codepen.io/matveynikon/pen/oNwwgNd
 
 ### Making the typewriter cursor animation
-Here I will be explaining and demonstraiting how to make the typewriter cursor animation, as well as how to style it.
-This is going to be essential for creating the typewriter effect and give the text the feeling of being typed.
+
 
 ### Combining everything
 Here I will be demonstrating the end result and the full code of the typewriter animation, along with full code of some practical applications of the typewriter effect like: demonstrating code, SaaS landing pages and personal portfolios.
