@@ -95,7 +95,7 @@ To make this animation reveal our text element in steps, the way a typewriter wo
         font-size: 25px;
         width: 0;
         animation: 
-          typing 1s steps(20, end) forwards,
+          typing 1s steps(20, end) forwards;
     }
 ```
 As you can see, we've split the "typing" animation into 20 steps using the CSS "steps()" function, neat right!
@@ -103,8 +103,30 @@ As you can see, we've split the "typing" animation into 20 steps using the CSS "
 Now that's more like it:
 https://codepen.io/matveynikon/pen/oNwwgNd
 
-### Making the typewriter cursor animation
-
+### Making and styling the typewriter cursor animation
+As you might have noticed, the orange cursor did not blink the way it would on a typewriter.
+To fix this, create the "blink" animation:
+```
+    @keyframes blinking {
+      from { border-color: transparent }
+      to { border-color: orange; }
+    }
+```
+This will change the border color of the "typed-out" element's border, which in our case serves the purpose of being a cursor.
+Include this animation in the "typed-out" class and set it's animation direction property to infinite to make the cursor disappear and reappear every .8s forever.
+```
+    .typed-out{
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        font-size: 25px;
+        width: 0;
+        animation: 
+          typing 1s steps(20, end) forwards,
+          blinking .8s infinite;
+    }
+```
+https://codepen.io/matveynikon/pen/wveeBgB
 
 ### Combining everything
 Here I will be demonstrating the end result and the full code of the typewriter animation, along with full code of some practical applications of the typewriter effect like: demonstrating code, SaaS landing pages and personal portfolios.
