@@ -17,7 +17,7 @@ What I've found is that adding typewriter effects to chunks of your text makes y
 
 The typewriter animation is easy to make and all you will need to have in order to make sense of this tutorial and this animation is basic knowledge of CSS and CSS animations.
 
-Here's the way the typewriter animation is going to work:
+Here's the way the typewriter effect is going to work:
 * The "typing" animation is going to reveal our text element by changing it's width from 0 to 40%, step by step, using the CSS "step()" function.
 * The "blink" animation is going to create the cursor that will "type out" our text element.
 
@@ -61,12 +61,30 @@ Note that in order for the typewriter effect to work, we've added
 * A **"border-right: .15em solid orange;"** property to create the typewriter cursor.
 
 ### Making the typewriter animation
-Add an **animation: typing 1s steps(20, end) forwards;** property to the typed-out class then create the typewriter animation.
 The typewriter animation is simply:
 ```
-E
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 16% }
+    }
 ```
+As you can see, all it does is change an element's width from 0 to 16%.
+Now if you include this animation in your "typed-out" class:
+```
+    .typed-out{
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        font-size: 25px;
+        width: 0;
+        animation: 
+          typing 1s forwards,
+    }
+```
+You're text element will simply be revealed in one smooth step:
+https://codepen.io/matveynikon/pen/OJggJGG
 
+This is obviously not what a typewriter effect looks like,
 
 ### Adding steps to the animation to add a typewriter effect
 Here I will be introducing the reader to the CSS "steps()" function, how to use it and how to add the right amount of steps to your typewriter animation based on the length of your text element, and how The longer the text the more steps are needed and vice-versa. 
