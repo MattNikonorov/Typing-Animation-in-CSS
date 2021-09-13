@@ -114,7 +114,7 @@ https://codepen.io/matveynikon/pen/mdwMdmB
 As you might have noticed, the orange cursor did not blink the way it would on a typewriter.
 To fix this, create the "blink" animation:
 ```
-    @keyframes blinking {
+    @keyframes blink {
       from { border-color: transparent }
       to { border-color: orange; }
     }
@@ -130,11 +130,29 @@ Include this animation in the "typed-out" class and set it's animation direction
         width: 0;
         animation: 
           typing 1s steps(20, end) forwards,
-          blinking .8s infinite;
+          blink .8s infinite;
     }
 ```
 https://codepen.io/matveynikon/pen/wveeBgB
 
+You can make the cursor thinner or thicker by adjusting it's `border-right: .15em solid orange;` property, or you can make the cursor a different color, border-radius, frequency of the cursor blinking effect, there's lot's of possibilities!
+https://codepen.io/matveynikon/pen/MWovWdw
+
+You can experiment with these properties inside the codepen and see what you can do!
+
 ### Combining everything
-Here I will be demonstrating the end result and the full code of the typewriter animation, along with full code of some practical applications of the typewriter effect like: demonstrating code, SaaS landing pages and personal portfolios.
+**Now that you know how to make the typewriter animation in pure CSS and how the typing animation works, it's time for me to demonstrate some practical and relevant use cases of the typewriter effect.**
+
+Personal portfolios:
+codepen here
+
+Typewriter animations make your web-resume/personal website stand out, and make it more engaging.
+
+*************
+
+API landing pages
+codepen here
+
+It's likely that at some point in your development journey, you came across an API provider landing page and saw a code-block like that, demonstrating the implementation of their API. I personally find this a really neat implementation of the typewriter animation, and find that it looks more attractive and inviting than a static chunk of code.
+
 https://codepen.io/matveynikon/pen/RwgGRab
