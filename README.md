@@ -144,15 +144,27 @@ You can experiment with these properties inside the codepen and see what you can
 **Now that you know how to make the typewriter animation in pure CSS and how the typing animation works, it's time for me to demonstrate some practical and relevant use cases of the typewriter effect.**
 
 Personal portfolios:
-codepen here
+https://codepen.io/matveynikon/pen/dyRoqmr
 
 Typewriter animations make your web-resume/personal website stand out, and make it more engaging.
 
 *************
 
 API landing pages
-codepen here
+https://codepen.io/matveynikon/pen/powWNYa
 
 It's likely that at some point in your development journey, you came across an API provider landing page and saw a code-block like that, demonstrating the implementation of their API. I personally find this a really neat implementation of the typewriter animation, and find that it looks more attractive and inviting than a static chunk of code.
 
-https://codepen.io/matveynikon/pen/RwgGRab
+*************
+
+SaaS/product landing pages
+https://codepen.io/matveynikon/pen/qBjPRWe
+
+I found that typing effects inside SaaS or Product landing pages are more inviting and engaging to visitors looking to use their products or services.
+As someone who spent a lot of time developing Web Services and Web Apps, I can say from experience that typing animation are a definite win when it comes to building a unique and engaging landing page.
+
+************
+
+## Conclusion
+That's it for this tutorial!
+I hope that at this point you know how to make, style, and implement the typing effect.
