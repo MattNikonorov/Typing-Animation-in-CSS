@@ -5,11 +5,10 @@
 ***********
 ##### First of all, why typewriter animations?
 
-Answer: **It makes your website more engaging to visitors.**
-For example, here's a snapshot of a personal portfolio template I made recently:
+Answer: **It makes your website more engaging to visitors.*
 
-As you can see, I've added the typewriter effect to this website instead of plain text.
 What I've found is that adding typewriter effects to chunks of your text makes your website's visitors more engaged and interested in reading further.
+The typewriter effect can be used for many purposes such as making engaging landing pages, call to action elements, personal websites or Code demonstrations
 
 ************
 
@@ -69,6 +68,7 @@ The typewriter animation is simply:
     }
 ```
 As you can see, all it does is change an element's width from 0 to 16%.
+You will need to adjust the target width of this animation based on the length of your text element, but I'll get to that in a bit.
 
 Now if you include this animation in your "typed-out" class and set it's animation direction to "forwards" to make sure the text element won't go
 back to "width: 0" after the animation has finished:
@@ -169,8 +169,7 @@ It's likely that at some point in your development journey, you came across an A
 https://codepen.io/matveynikon/pen/qBjPRWe
 
 I found that typing effects inside SaaS or Product landing pages are more inviting and engaging to visitors looking to use their products or services.
-As someone who spent a lot of time developing Web Services and Web Apps, I can say from experience that typing animation are a definite win when it comes to building a unique and engaging landing page.
-
+As someone who spent a lot of time developing Web Services and Web Apps, I can say from experience that typing animation are a definite win when it comes to building a unique and engaging landing page. The typed out "Get started today" at the end is a call to action that also implements the typewriter animation, and unlike most static call to action elements, it is only displayed once the visitor's attention is hooked on the previous typed out elements pointing out the different use cases and implementations of "RandomSaaS".
 ************
 
 ## Conclusion
