@@ -47,7 +47,7 @@ Before making the animation, let's create the webpage along with div "typed-out"
 
 ### Styling the text element which we want to have the typewriter effect
 
-Now that we have the layout of the webpage, let's style the "typed-out" class by first giving it these properties:
+Now that we have the layout of the webpage, let's style the "typed-out" class by giving it these properties:
 ```
     .typed-out{
         overflow: hidden;
@@ -69,7 +69,9 @@ The typewriter animation is simply:
     }
 ```
 As you can see, all it does is change an element's width from 0 to 16%.
-Now if you include this animation in your "typed-out" class:
+
+Now if you include this animation in your "typed-out" class and set it's animation direction to "forwards" to make sure the text element won't go
+back to "width: 0" after the animation has finished:
 ```
     .typed-out{
         overflow: hidden;
@@ -81,7 +83,7 @@ Now if you include this animation in your "typed-out" class:
           typing 1s forwards,
     }
 ```
-You're text element will simply be revealed in one smooth step:
+You're text element will simply be revealed in one smooth step, from left to right:
 https://codepen.io/matveynikon/pen/OJggJGG 
 
 #### Adding steps to the animation to add a typewriter effect
