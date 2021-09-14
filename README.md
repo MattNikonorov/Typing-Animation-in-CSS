@@ -167,4 +167,5 @@ As someone who spent a lot of time developing Web Services and Web Apps, I can s
 
 ## Conclusion
 That's it for this tutorial!
-I hope that at this point you know how to make, style, and implement the typing effect.
+I hope that at this point you know how to make, style, and implement the typing effect to make your webpage more engaging to visitors, as well as to show of
+your web design skills ;)
