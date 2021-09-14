@@ -84,6 +84,7 @@ back to "width: 0" after the animation has finished:
     }
 ```
 You're text element will simply be revealed in one smooth step, from left to right:
+
 https://codepen.io/matveynikon/pen/OJggJGG 
 
 #### Adding steps to the animation to add a typewriter effect
@@ -107,9 +108,11 @@ https://codepen.io/matveynikon/pen/oNwwgNd
 
 Depending on the length of the text element, you will need to adjust the steps, duration, and target width of the "typing" animation accordingly.
 For example, if we change the text from "web developer" to a longer string of text like "a web developer making unique web apps and designs", change the target width property of the "typing" animation to 58%, and the duration of the "typing" animation to 2.5s instead 1s, you'll see that the typewriter effect also works with longer pieces of text:
+
 https://codepen.io/matveynikon/pen/GREvKMZ
 
 Intuitevely, to adjust for shorter strings of text, we will need to decrease the steps, duration, and target width of the "typing" animation:
+
 https://codepen.io/matveynikon/pen/mdwMdmB
 
 ### Making and styling the typewriter cursor animation
