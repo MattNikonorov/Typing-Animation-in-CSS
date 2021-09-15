@@ -39,7 +39,7 @@ Before making the animation, let's create the webpage, along with the div that w
 ```
 
 
-### Styling the text element which we want to have the typewriter effect
+### Styling the element which we want to display the typewriter effect
 
 Now that we have the layout of the webpage, let's style the "typed-out" class by giving it these properties:
 ```
