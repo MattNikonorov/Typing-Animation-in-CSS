@@ -2,11 +2,6 @@
 
 #### In this article, you'll learn how to make your website's text dynamic and more engaging using typewriter animations in pure CSS!
 
-***********
-##### First of all, why typewriter animations?
-
-Answer: **It makes your website more engaging to visitors.**
-
 What I've found is that adding typewriter effects to chunks of your text makes your website's visitors more engaged and interested in reading further.
 The typewriter effect can be used for many purposes such as making engaging landing pages, call to action elements, personal websites or Code demonstrations
 
