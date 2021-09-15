@@ -108,7 +108,7 @@ For example, if we change the text from "web developer" to a longer string of te
 
 https://codepen.io/matveynikon/pen/GREvKMZ
 
-Intuitevely, to adjust for shorter strings of text, we will need to decrease the steps, duration, and target width of the "typing" animation:
+Intuitively, to adjust for shorter strings of text, we will need to decrease the steps, duration, and target width of the "typing" animation:
 
 https://codepen.io/matveynikon/pen/mdwMdmB
 
