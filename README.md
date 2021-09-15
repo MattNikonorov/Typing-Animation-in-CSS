@@ -104,6 +104,7 @@ To make this animation reveal our text element in steps, the way a typewriter wo
 As you can see, we've split the "typing" animation into 20 steps using the CSS "steps()" function, neat right!
 
 Now that's more like it:
+
 https://codepen.io/matveynikon/pen/oNwwgNd
 
 Depending on the length of the text element, you will need to adjust the steps, duration, and target width of the "typing" animation accordingly.
