@@ -7,12 +7,12 @@ The typewriter effect can be used for many purposes such as making engaging land
 
 ************
 
-## Let's make the typewriter animation!
+## Let's create the typewriter effect!
 
 The typewriter animation is easy to make and all you will need to have in order to make sense of this tutorial and this animation is basic knowledge of CSS and CSS animations.
 
 Here's the way the typewriter effect is going to work:
-* The "typing" animation is going to reveal our text element by changing it's width from 0 to 40%, step by step, using the CSS "step()" function.
+* The "typing" animation is going to reveal our text element by changing it's width from 0 to 16%, step by step, using the CSS "step()" function.
 * The "blink" animation is going to create the cursor that will "type out" our text element.
 
 Before making the animation, let's create the webpage along with div "typed-out" which we want to have the typewriter effect:
@@ -54,7 +54,7 @@ Note that in order for the typewriter effect to work, we've added
 * An **"overflow: hidden;"** and a **width: 0;** property to make sure the text content isn't revealed until the typewriter animation has started.
 * A **"border-right: .15em solid orange;"** property to create the typewriter cursor.
 
-### Making the typewriter animation
+### Making the typing animation
 The typewriter animation is simply:
 ```
     @keyframes typing {
@@ -82,7 +82,7 @@ You're text element will simply be revealed in one smooth step, from left to rig
 
 https://codepen.io/matveynikon/pen/OJggJGG 
 
-#### Adding steps to the animation to add a typewriter effect
+#### Adding steps to the typing animation to achieve a typewriter effect
 This is obviously not what a typewriter effect looks like.
 To make this animation reveal our text element in steps, the way a typewriter would, we have to split the "typing" animation included by the "typed-out" class into steps in order for it to look like a typewriter effect:
 ```
@@ -120,7 +120,7 @@ To fix this, create the "blink" animation:
       to { border-color: orange; }
     }
 ```
-This will change the border color of the "typed-out" element's border, which in our case serves the purpose of being a cursor.
+This will change the border color of the "typed-out" element's border, which is used as a cursor. from transparent to orange.
 Include this animation in the "typed-out" class and set it's animation direction property to infinite to make the cursor disappear and reappear every .8s forever.
 ```
     .typed-out{
