@@ -15,7 +15,7 @@ Here's the way the typewriter effect is going to work:
 * The "typing" animation is going to reveal our text element by changing it's width from 0 to 16%, step by step, using the CSS "step()" function.
 * The "blink" animation is going to create the cursor that will "type out" our text element.
 
-Before making the animation, let's create the webpage along with div "typed-out" which we want to have the typewriter effect:
+Before making the animation, let's create the webpage, along with the div that will contain the "typed-out" class, this class is the one that we want to display the typewriter effect:
 ```
 <!doctype html>
 <html>
