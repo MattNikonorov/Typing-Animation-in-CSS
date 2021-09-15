@@ -51,7 +51,7 @@ Now that we have the layout of the webpage, let's style the "typed-out" class by
     }
 ```
 Note that in order for the typewriter effect to work, we've added
-* An **"overflow: hidden;"** and a **width: 0;** property to make sure the text content isn't revealed until the typewriter animation has started.
+* An **"overflow: hidden;"** and a **"width: 0;"** property to make sure the text content isn't revealed until the typewriter animation has started.
 * A **"border-right: .15em solid orange;"** property to create the typewriter cursor.
 
 ### Making the typing animation
