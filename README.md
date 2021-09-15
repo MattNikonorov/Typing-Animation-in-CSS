@@ -55,7 +55,7 @@ Note that in order for the typewriter effect to work, we've added
 * A **"border-right: .15em solid orange;"** property to create the typewriter cursor.
 
 ### Making the typing animation
-The typewriter animation is simply:
+The typing animation is going to create the effect of the text inside the div containing the "typed-out" class being typed out letter by letter:
 ```
     @keyframes typing {
       from { width: 0 }
@@ -83,8 +83,9 @@ You're text element will simply be revealed in one smooth step, from left to rig
 https://codepen.io/matveynikon/pen/OJggJGG 
 
 #### Adding steps to the typing animation to achieve a typewriter effect
+
 This is obviously not what a typewriter effect looks like.
-To make this animation reveal our text element in steps, the way a typewriter would, we have to split the "typing" animation included by the "typed-out" class into steps in order for it to look like a typewriter effect:
+To make this animation reveal our text element in steps, the way a typewriter would, we have to split the "typing" animation included by the "typed-out" class into steps in order for it to look like it's being typed-out:
 ```
     .typed-out{
         overflow: hidden;
@@ -112,6 +113,7 @@ Intuitevely, to adjust for shorter strings of text, we will need to decrease the
 https://codepen.io/matveynikon/pen/mdwMdmB
 
 ### Making and styling the typewriter cursor animation
+
 As you might have noticed, the orange cursor did not blink the way it would on a typewriter.
 To fix this, create the "blink" animation:
 ```
@@ -120,7 +122,7 @@ To fix this, create the "blink" animation:
       to { border-color: orange; }
     }
 ```
-This will change the border color of the "typed-out" element's border, which is used as a cursor. from transparent to orange.
+This will change the border color of the "typed-out" element's border, which is used as a cursor for the typewriter effect, from transparent to orange.
 Include this animation in the "typed-out" class and set it's animation direction property to infinite to make the cursor disappear and reappear every .8s forever.
 ```
     .typed-out{
@@ -136,19 +138,20 @@ Include this animation in the "typed-out" class and set it's animation direction
 ```
 https://codepen.io/matveynikon/pen/wveeBgB
 
-You can make the cursor thinner or thicker by adjusting it's `border-right: .15em solid orange;` property, or you can make the cursor a different color, border-radius, frequency of the cursor blinking effect, there's lot's of possibilities!
+You can make the cursor thinner or thicker by adjusting it's `border-right: .15em solid orange;` property, or you can make the cursor a different color, border-radius, frequency of the cursor blinking effect, there's a lot of possibilities!
 https://codepen.io/matveynikon/pen/MWovWdw
 
 You can experiment with these properties inside the codepen and see what you can do!
 
 ### Combining everything
+
 Now that you know how to make the typewriter animation in pure CSS and how the typing animation works, it's time for me to demonstrate some practical and relevant use cases of the typewriter effect.
 
 **Personal portfolios**
 
 https://codepen.io/matveynikon/pen/dyRoqmr
 
-Typewriter animations make your web-resume/personal website stand out, and make it more engaging.
+Typewriter effects make your web-resume/personal website stand out, and make it more engaging.
 
 *************
 
@@ -156,7 +159,7 @@ Typewriter animations make your web-resume/personal website stand out, and make 
 
 https://codepen.io/matveynikon/pen/powWNYa
 
-It's likely that at some point in your development journey, you came across an API provider landing page and saw a code-block like that, demonstrating the implementation of their API. I personally find this a really neat implementation of the typewriter animation, and find that it looks more attractive and inviting than a static chunk of code.
+It's likely that at some point in your development journey, you came across an API provider landing page and saw a code-block like that, demonstrating the implementation of their API. I personally find this a really practical and relevant implementation of the typewriter effect, and find that it looks more attractive and inviting than a static chunk of code.
 
 *************
 
@@ -164,11 +167,12 @@ It's likely that at some point in your development journey, you came across an A
 
 https://codepen.io/matveynikon/pen/qBjPRWe
 
-I found that typing effects inside SaaS or Product landing pages are more inviting and engaging to visitors looking to use their products or services.
-As someone who spent a lot of time developing Web Services and Web Apps, I can say from experience that typing animation are a definite win when it comes to building a unique and engaging landing page. The typed out "Get started today" at the end is a call to action that also implements the typewriter animation, and unlike most static call to action elements, it is only displayed once the visitor's attention is hooked on the previous typed out elements pointing out the different use cases and implementations of "RandomSaaS".
+I found that typewriter effects inside SaaS or Product landing pages are more inviting and engaging to visitors looking to use their products or services.
+As someone who spent a lot of time developing Web Services and Web Apps, I can say from experience that typing effects are a definite win when it comes to building a unique and engaging landing page. The typed out "Get started today" at the end is a call to action that also implements the typewriter effect, and unlike most static call to action elements, it is only displayed after the visitor's attention is focused on the previous typed out elements pointing out the different use cases and implementations of "RandomSaaS".
 ************
 
 ## Conclusion
 That's it for this tutorial!
-I hope that at this point you know how to make, style, and implement the typing effect to make your webpage more engaging to visitors, as well as to show of
+
+I hope that at this point you know how to make, style, and implement the typewriter effect to make your webpages more engaging to visitors, as well as to show-off
 your web design skills ;)
